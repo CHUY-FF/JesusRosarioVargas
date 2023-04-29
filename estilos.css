@@ -81,11 +81,11 @@ ul li a{
     transition: 0.5s;
 }
 
-ul li: hover a{
+ul li:hover a{
     color: #fff;
 }
 
-ul li: last-child::after{
+ul li:last-child::after{
     box-shadow: -150px 150px 20px black;
 }
 
